@@ -13,5 +13,10 @@ public class Main {
             System.out.println(stack.peek());
             stack.pop();
         }
+        Queue<Integer> queue = new Queue<>();
+        queue.enqueue(56);
+        queue.enqueue(30);
+        queue.enqueue(70);
+        System.out.println(queue);
     }
 }
