@@ -18,5 +18,8 @@ public class Main {
         queue.enqueue(30);
         queue.enqueue(70);
         System.out.println(queue);
+        while (!queue.isEmpty()){
+            System.out.println(queue.dequeue());
+        }
     }
 }
