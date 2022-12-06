@@ -4,7 +4,7 @@ public class Queue<T> {
     private LinkedList<T> linkedList;
 
     public Queue() {
-        linkedList = new LinkedList<> ();
+        linkedList = new LinkedList<>();
     }
 
     public void enqueue(T element) {
